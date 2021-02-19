@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: test.DemoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.895 s <<< FAILURE! - in test.DemoTest
+test.DemoTest.demo  Time elapsed: 1.894 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sanket-Malis-MacBook-Pro.local', ip: 'fe80:0:0:0:107d:1177:d7af:266a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browser_name: iPhone, browserstack.appium_version: 1.17.0, browserstack.isTargetBased: true, browserstack.is_hub_canary: false, buildName: build 1, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: iphone, deviceName: iPhone 11, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 11-14.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 14.0, os_version: 14.0, platform: MAC, platformName: MAC, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008030-000871C92161802E, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 8813694564125adb7933fd27f85ae6c3edc98d99
+	at test.DemoTest.demo(DemoTest.java:31)
+
+test.DemoTest.demo  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sanket-Malis-MacBook-Pro.local', ip: 'fe80:0:0:0:107d:1177:d7af:266a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9.1'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browser_name: iPhone, browserstack.appium_version: 1.17.0, browserstack.isTargetBased: true, browserstack.is_hub_canary: false, buildName: build 1, databaseEnabled: false, detected_language: selenium/3.141.59 (java mac), device: iphone, deviceName: iPhone 11, deviceOrientation: PORTRAIT, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 11-14.0}, networkConnectionEnabled: false, newCommandTimeout: 0, new_bucketing: true, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 14.0, os_version: 14.0, platform: MAC, platformName: MAC, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., takesScreenshot: true, udid: 00008030-000871C92161802E, useXctestrunFile: true, version: , wda_port: 8404, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: 8813694564125adb7933fd27f85ae6c3edc98d99
+	at test.DemoTest.tearDown(DemoTest.java:35)
+Caused by: java.lang.IllegalArgumentException: Cannot decode response content: 
+	at test.DemoTest.tearDown(DemoTest.java:35)
+Caused by: org.openqa.selenium.json.JsonException: 
+Expected to read a START_MAP but instead have: END. Last 0 characters read: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sanket-Malis-MacBook-Pro.local', ip: 'fe80:0:0:0:107d:1177:d7af:266a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9.1'
+Driver info: driver.version: RemoteWebDriver
+	at test.DemoTest.tearDown(DemoTest.java:35)
+
