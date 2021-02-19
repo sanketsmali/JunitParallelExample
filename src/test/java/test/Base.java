@@ -11,8 +11,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class Base {
-	public static  String AUTOMATE_USERNAME = "sanketmali4";
-	public static String AUTOMATE_ACCESS_KEY = "XaqpcHttuyFzXSzC3uNM";
+	public static  String AUTOMATE_USERNAME = "username";
+	public static String AUTOMATE_ACCESS_KEY = "password";
 	public static  String URL = "https://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY
 			+ "@hub-cloud.browserstack.com/wd/hub";
 	 
